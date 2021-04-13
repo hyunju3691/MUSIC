@@ -1,12 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic|Nanum+Myeongjo&display=swap&subset=korean');
+
 body{
   text-align: center;
   background-color:	#FFB6C1;
+  font-family: 'Nanum Myeongjo', serif;
 }
 
 a {color: #4169E1;
-text-decoration: none;}
+text-decoration: none;
+}
 
 .b {border: 10px solid white;}
+
+h1 {	color: #FAEBD7}
 
 header {
     width: 100%;
@@ -20,7 +26,7 @@ nav ul li{
   display:inline;
   padding:0 10px;
   list-style-type:none;
-  font:bold 18px italic;
+  font:bold, 18px, italic, 'Nanum Gothic', sans-serif;
   border-left:1px solid #999;
 }
 
